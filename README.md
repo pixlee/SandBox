@@ -5,7 +5,7 @@ Project SandBox
 This Project use marionette on top of backbone with an opiniated structure. For more information on Marionette check https://github.com/marionettejs/backbone.marionette/wiki
 ![marionette stack](https://s3.amazonaws.com/uploads.hipchat.com/30445/261935/hRuymcUmLNMKIPz/upload.png)
 ### - Application Object 
-		- Starting hub of the application
+	- Starting hub of the application
         - Encapsulation and namespace
         - Set up initial configuration (pass bootstrap data or any informations)
 ### - Application Regions
@@ -43,7 +43,7 @@ This Project use marionette on top of backbone with an opiniated structure. For 
         - Facilitate decoupling componenet or modules
         - 
 ## Pixlee Structure
- ### Events and Messaging paterns
+### - Events and Messaging paterns
 	We want to scale hundreds even thousands of javascript files without the need to restructure the app.
 Brick by brick can be added as you develop
 	Here is an example of the layer we built
