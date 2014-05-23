@@ -1,7 +1,7 @@
 Project SandBox
 
 
-### - Marionette Structure
+## - Marionette Structure
 This Project use marionette on top of backbone with an opiniated structure. For more information on Marionette check https://github.com/marionettejs/backbone.marionette/wiki
 ![marionette stack](https://s3.amazonaws.com/uploads.hipchat.com/30445/261935/hRuymcUmLNMKIPz/upload.png)
 ### - Application Object 
@@ -41,7 +41,3 @@ This Project use marionette on top of backbone with an opiniated structure. For 
 		- Trigger and manage events at the module or application level
         - Facilities Command Pub/Sub and Request/Response patterns
         - Facilitate decoupling componenet or modules
-
-
-
-        The folder javascripts/apps/{module name} is our holder for the modules they should be totally independent from each other, and communicate only by events (
