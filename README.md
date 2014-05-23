@@ -43,6 +43,6 @@ This Project use marionette on top of backbone with an opiniated structure. For 
         - Facilitate decoupling componenet or modules
         - 
 ## Pixlee Structure
- ### Events and Messaging paterns
-	We want to scale hundreds even thousands of javascript files without the need to restructure the app. Brick by brick can be added as you develop. Here is an example of the layer we built
+### Events and Messaging paterns
+        - We want to scale hundreds even thousands of javascript files without the need to restructure the app. Brick by brick can be added as you develop. Here is an example of the layer we built
 
