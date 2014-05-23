@@ -2,9 +2,9 @@ Project SandBox
 
 
 ### - Marionette Structure
-This Project use marionette on top of backbone with an opiniated structure 
+This Project use marionette on top of backbone with an opiniated structure. For more information on Marionette check https://github.com/marionettejs/backbone.marionette/wiki
 ![marionette stack](https://s3.amazonaws.com/uploads.hipchat.com/30445/261935/hRuymcUmLNMKIPz/upload.png)
-### - Application Object
+### - Application Object 
 		- Starting hub of the application
         - Encapsulation and namespace
         - Set up initial configuration (pass bootstrap data or any informations)
