@@ -1,5 +1,0 @@
-*.swp
-.DS_Store
-build
-examples/build
-tests/build
