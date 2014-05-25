@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script type="text/javascript" src="javascripts/vendor/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="javascripts/vendor/underscore/underscore.js"></script>
+	<script type="text/javascript" src="javascripts/vendor/backbone/backbone.js"></script>
+	<script type="text/javascript" src="javascripts/vendor/marionette/lib/backbone.marionette.js"></script>
+	<script type="text/javascript" src="javascripts/backbone/templates/templates.js"></script>
+	<script type="text/javascript" src="javascripts/config/renderer.js"></script>
+	<script type="text/javascript" src="javascripts/backbone/main_app.js"></script>
+	<script type="text/javascript" src="javascripts/backbone/apps/photowall/photowall_app.js"></script>
+	<script type="text/javascript" src="javascripts/backbone/lib/utilities/navigation.js"></script>
+	<script type="text/javascript" src="javascripts/backbone/entities/photos.js"></script>
+	<script type="text/javascript" src="javascripts/backbone/apps/photowall/show/show_controller.js"></script>
+	<script type="text/javascript" src="/javascripts/backbone/apps/photowall/show/show_view.js"></script>
+	<style type="text/css" src="stylesheets/main.css"></style>
+</head>
+<body>
+	<div id="header_region"></div>
+	<div id="main_region"></div>
+	<div id="footer_region"></div>
+	<script type="text/javascript">
+		$(function() {
+			//YOu can pass the data to the global object Pixlee and handle it in main_app.js through the events before:initialize or after:initialize triggerd at the app level
+		        Pixlee.start({
+		        		photos:[]
+		        });
+		});
+	</script>
+</body>
+</html>

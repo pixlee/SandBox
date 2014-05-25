@@ -1,0 +1,14 @@
+{
+  "name": "shadowbox",
+  "homepage": "https://github.com/mjijackson/shadowbox",
+  "version": "3.0.3",
+  "_release": "3.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.3",
+    "commit": "2eea8c23b170cf03b19f98477f544d8437b5daf6"
+  },
+  "_source": "git://github.com/mjijackson/shadowbox.git",
+  "_target": "3.0.3",
+  "_originalSource": "shadowbox"
+}
